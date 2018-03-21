@@ -1,0 +1,37 @@
+img{
+	height:150px;
+	width:150px;
+}
+#demo li{
+ 	padding-right: 29px;
+    margin-top: 14px;
+    color:white;
+}
+#head h2{
+	text-align:center;
+	border:1px solid black;
+}
+#head1{
+	margin-top:25px;
+}
+#pic{
+
+	float:left; 
+	height:100px;
+	width:100px;
+	margin-top:10px; 
+	margin-right:10px;
+}
+#left{
+	height:100px;
+	width:200px;
+}
+#right{
+	background-color:grey;
+	 padding:20px;
+	 color:white; 
+}
+footer{
+	text-align:center;
+	margin-bottom:30px;
+}

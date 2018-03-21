@@ -1,0 +1,29 @@
+$(document).ready(function(){
+	$("#about").hide();
+	$("#hm").click(function(){
+		debugger
+		$("#about").hide();
+		$("#home").show();
+	});
+	$("#abt").click(function(){
+		debugger
+		$("#home").hide();
+		$("#about").show();
+	});
+	$("#test").click(function(){
+		$("#about").show();
+		$("#home").hide();
+	});
+	$("#add").click(function(){
+		$("#about").show();
+		$("#home").hide();
+	});
+	$("#sum").click(function(){
+		$("#about").show();
+		$("#home").hide();
+	});
+	$("#get").click(function(){
+		$("#about").show();
+		$("#home").hide();
+	});
+});
