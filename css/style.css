@@ -104,4 +104,6 @@ footer{
 
  #btn{
     margin-left:400px;
+    position:absolute;
+    margin-top:-34px;
 }
