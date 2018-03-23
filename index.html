@@ -58,12 +58,27 @@
     <div class="row" id="home">
       <div class="row">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" id="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
+          <ol id="carousel_button">
+                  <div class="center">
+                    <div class="pagination">
+                      <a class="btn btn-primary carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="">prev</span>
+                        <span class="sr-only"></span>
+                      </a>
+                      <div>
+                        <button data-target="#myCarousel" data-slide-to="0" class="active btn btn-primary">1</button>
+                        <button data-target="#myCarousel" data-slide-to="1" class="btn btn-primary">2</button>
+                        <button data-target="#myCarousel" data-slide-to="2" class="btn btn-primary">3</button>
+                      </div> 
+                      
+                        <a class="btn btn-primary carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="hm">next</span>
+                          <span class="sr-only"></span>
+                        </a>
+                      
+                    </div>
+                  </div>
+                </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
@@ -127,7 +142,7 @@
        </div>
        <div class="col-sm-2">
         <a id="get">more</a>
-        <a href="#" class="scrollToTop">Scroll</a>
+        <a href="#" class="scrollToTop"></a>
       </div>
     </div>
   </div>
