@@ -107,3 +107,7 @@ footer{
     position:absolute;
     margin-top:-34px;
 }
+#past{
+    position: inherit;
+    margin-top: -35px;
+}
